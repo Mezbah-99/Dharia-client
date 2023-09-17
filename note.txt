@@ -1,0 +1,5 @@
+                           color for dark
+background: #0E1629
+h font-color: #7A818E
+p font-color: #94A3B8
+HighLight font-color: #94A3B8
