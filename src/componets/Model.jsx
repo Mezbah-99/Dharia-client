@@ -127,8 +127,10 @@ const Model = ({ updateProjectData }) => {
                             <InputControllers type="number" placeholder="Your demanding price." value={formsData.price} name="price" id="price" inputClass={inputClass} inputHandle={inputHandle} />
                         </div>
                         <div className={inputDiv}>
-                            <label htmlFor="file" className="text-lg">Title</label>
-                            <input type="file" id="file" onChange={(e) => setFile(e.target.files[0])} required className="text-lg w-full bg-white text-red-500 block p-1 rounded"/>
+                            <label htmlFor="file" className="text-lg">Banner image upload</label>
+
+                            <input type="file" id="file" onChange={(e) => setFile(e.target.files[0])} required className="text-lg w-full bg-white text-red-500 block p-1 rounded" />
+
                         </div>
                         <button className={buttonClass} type="submit">{updateProjectData ? 'Update' : 'Create'}</button>
                     </form>

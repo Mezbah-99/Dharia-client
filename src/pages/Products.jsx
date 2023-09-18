@@ -62,7 +62,7 @@ const Products = ({ handleUpdate }) => {
             <h1 className="text-4xl text-red-500 md:-mb-4 md:mt-4 ml-8 mt-8 font-mono">All posts</h1>
             <div className="products grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 sm:p-3 m-5 overflow-hidden sm:mt-5 -mt-6 p-8">
                 {
-                    projects && projects.map((product, index) => {//check if the number is even
+                    projects && projects.map((product, index) => {
                         
                         return (
                             <div data-aos="flip-left" className="rounded-md shadow-lg shadow-slate-700 flex flex-col justify-center items-center mb-3 border border-red-500" key={product._id}>

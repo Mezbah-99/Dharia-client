@@ -34,9 +34,6 @@ const Login = () => {
   const formControl = async (e) => {
     e.preventDefault();
     await login(inputData.email, inputData.password)
-    toast.success("You have loged In", {
-        position: toast.POSITION.BOTTOM_LEFT
-    });
     dispatch_toggle({type: "UN_AUTHORIZE_CLEAR"})
   }
 
